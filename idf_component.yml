@@ -1,0 +1,19 @@
+version: "1.0.0"
+description: "ESP-IDF component for easy Wi-Fi initialization and connection handling."
+url: "https://github.com/ozanoner/devops_easy_connect"
+repository: "https://github.com/ozanoner/devops_easy_connect.git"
+issues: "https://github.com/ozanoner/devops_easy_connect/issues"
+license: "MIT"
+maintainers:
+  - "Ozan Oner"
+tags:
+  - "wifi"
+  - "network"
+  - "esp-idf"
+files:
+  - "CMakeLists.txt"
+  - "devops_easy_connect.c"
+  - "include/*"
+dependencies:
+  idf:
+    version: ">=6.0.0"
