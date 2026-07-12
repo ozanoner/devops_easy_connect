@@ -10,10 +10,6 @@ tags:
   - "wifi"
   - "network"
   - "esp-idf"
-files:
-  - "CMakeLists.txt"
-  - "devops_easy_connect.c"
-  - "include/*"
 dependencies:
   idf:
     version: ">=6.0.0"
