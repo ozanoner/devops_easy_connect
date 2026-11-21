@@ -1,0 +1,11 @@
+menu "devops_easy_connect configuration"
+
+config DEVOPS_WIFI_SSID
+    string "Wi-Fi SSID"
+    default "Wokwi-GUEST"
+
+config DEVOPS_WIFI_PWD
+    string "Wi-Fi password"
+    default ""
+
+endmenu
